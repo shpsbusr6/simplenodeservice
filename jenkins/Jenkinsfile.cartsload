@@ -1,6 +1,6 @@
 pipeline {
   parameters {
-    string(name: 'ENDPOINT', defaultValue: 'http://carts.sockshop-production.104.198.181.52.xip.io', description: 'The URL Endpoint of your SimpleNodeService, e.g: http://simplenode.production.10.23.23.43.xip.io', trim: true)
+    string(name: 'ENDPOINT', defaultValue: 'http://carts.sockshop-production.104.154.30.5.xip.io', description: 'The URL Endpoint of your SimpleNodeService, e.g: http://simplenode.production.10.23.23.43.xip.io', trim: true)
   }
   agent {
     label 'kubegit'
